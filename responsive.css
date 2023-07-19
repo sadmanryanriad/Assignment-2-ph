@@ -41,4 +41,19 @@
         width: 50%;
         margin-left: 50%;
     }
+    .online-paragraph{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        text-align: center;
+    }
+    .card-paragraph{
+        width: 80%;
+        margin: auto;
+    }
 }
