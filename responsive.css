@@ -6,4 +6,21 @@
         flex-direction: column;
         margin-bottom: 20px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .banner-text-outside{
+        width: 80%;
+        margin: auto;
+    }
+    .banner-img{
+        width: 80%;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .clickable{
+        margin: auto;
+    }
 }
