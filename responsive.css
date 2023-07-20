@@ -124,7 +124,7 @@
     }
 
     .link-section{
-        font-size: 1rem;
+        font-size: .9rem;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding: 20px;
@@ -251,7 +251,7 @@
         grid-template-columns: repeat(3, 1fr);
         color: #FFF;
         text-align: center;
-        font-size: 1rem;
+        font-size: .9rem;
         font-weight: 600;
         margin-bottom: 30px;
     }
