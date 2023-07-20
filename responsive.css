@@ -96,6 +96,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        /* border: 1px solid red; */
     }
 
     .second-row {
@@ -122,18 +123,12 @@
         font-size: .7rem;
     }
 
-    .link-section {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .link-section .link-div {
-        color: #FFF;
-        text-align: center;
+    .link-section{
         font-size: 1rem;
-        font-weight: 600;
-        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 20px;
     }
-
     .logo-button {
         text-align: center;
         margin: 20px;
@@ -142,6 +137,7 @@
     .small-text-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
     }
 
     .small-text-section .small-text {
@@ -270,6 +266,7 @@
     .small-text-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        /* padding: 100px; */
     }
 
     .small-text-section .small-text {
