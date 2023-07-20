@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
     .nav-container {
         flex-direction: column;
     }
@@ -6,13 +6,23 @@
     .logo-container {
         justify-content: center;
     }
-
     .menus {
         flex-direction: column;
         margin-bottom: 20px;
         justify-content: center;
+        width: 100%;
     }
-
+    .follow {
+        /* display: flex;
+        align-items: center; */
+        gap: 0;
+        border-radius: 8px;
+        /* background: rgba(11, 2, 35, 0.10); */
+        padding: 10px;
+    }
+    .follow-logo{
+        margin-left: 10px;
+    }
     .banner-container {
         flex-direction: column-reverse;
         gap: 30px;
@@ -84,6 +94,129 @@
 
     .second-row {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mini-cards {
+        /* width: 45%; */
+        margin: 0;
+        align-items: center;
+        margin: 100px 0 100px 0;
+    }
+
+    .mini-card {
+        width: 200px;
+        gap: 2px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+
+    .link-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .link-section .link-div {
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .logo-button{
+        text-align: center;
+        margin: 20px;
+    }
+    .small-text-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .small-text-section .small-text{
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+}
+
+/* for TAB devices */
+
+@media screen and (min-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .menus {
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .banner-text-outside {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 80%;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .clickable {
+        margin: auto;
+    }
+
+    .play-section {
+        flex-direction: column;
+    }
+
+    .play-paragraph {
+        margin-bottom: 20px;
+    }
+
+    .man {
+        width: 100%;
+    }
+
+    .cat {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .online-paragraph {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .card-paragraph {
+        width: 80%;
+        margin: auto;
+    }
+
+    .first-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .second-row {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .mini-cards {
