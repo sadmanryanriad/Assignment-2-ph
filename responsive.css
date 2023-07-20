@@ -6,12 +6,14 @@
     .logo-container {
         justify-content: center;
     }
+
     .menus {
         flex-direction: column;
         margin-bottom: 20px;
         justify-content: center;
         width: 100%;
     }
+
     .follow {
         /* display: flex;
         align-items: center; */
@@ -20,9 +22,11 @@
         /* background: rgba(11, 2, 35, 0.10); */
         padding: 10px;
     }
-    .follow-logo{
+
+    .follow-logo {
         margin-left: 10px;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         gap: 30px;
@@ -73,30 +77,30 @@
         margin: auto;
         text-align: center;
     }
-    
+
     .cards {
         grid-template-columns: 1fr;
     }
-    
+
     .card {
         text-align: center;
         margin-top: 20px;
     }
-    
+
     .card-paragraph {
         width: 80%;
         margin: auto;
     }
-    
+
     .first-row {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
     }
 
     .second-row {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
     }
 
@@ -106,12 +110,16 @@
         align-items: center;
         margin: 100px 0 100px 0;
     }
-
+    .mini-card-image{
+        width: 20%;
+    }
     .mini-card {
-        width: 200px;
+        width: 180px;
+        /* border: 1px solid red; */
         gap: 2px;
         padding: 2px;
         margin-top: 5px;
+        font-size: .7rem;
     }
 
     .link-section {
@@ -125,15 +133,18 @@
         font-weight: 600;
         margin-bottom: 30px;
     }
-    .logo-button{
+
+    .logo-button {
         text-align: center;
         margin: 20px;
     }
-    .small-text-section{
+
+    .small-text-section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .small-text-section .small-text{
+
+    .small-text-section .small-text {
         font-size: .8rem;
         margin-bottom: 20px;
     }
@@ -202,7 +213,7 @@
     }
 
     .cards {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .card {
@@ -216,10 +227,12 @@
     }
 
     .first-row {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     .second-row {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -248,15 +261,18 @@
         font-weight: 600;
         margin-bottom: 30px;
     }
-    .logo-button{
+
+    .logo-button {
         text-align: center;
         margin: 20px;
     }
-    .small-text-section{
+
+    .small-text-section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .small-text-section .small-text{
+
+    .small-text-section .small-text {
         font-size: .8rem;
         margin-bottom: 20px;
     }
