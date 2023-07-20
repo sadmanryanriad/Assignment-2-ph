@@ -89,11 +89,15 @@
     }
 
     .first-row {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
     }
 
     .second-row {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
     }
 
     .mini-cards {

@@ -303,36 +303,37 @@
 
 /* mini cards */
 .mini-cards {
-    max-width: 1400px;
+    max-width: 1500px;
     /* border: 1px solid red; */
     margin: 120px auto;
 }
 
 .first-row {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 
 .second-row {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 
 .mini-card {
     display: flex;
-    gap: 16px;
-    padding: 10px;
-    /* border: 1px solid green; */
-    width: 243px;
-    height: 80px;
+    gap: 5px;
+    padding: 5px;
+    /* border: 1px solid pink; */
     border-radius: 50px;
-    text-align: center;
-    justify-content: center;
+    align-items: center;
 }
-.mini-card:hover{
+.mini-card img{
+/* max-height: 100%; */
+}
+.mini-card:hover {
     border: 2px solid #F948B2;
     cursor: pointer;
     color: #F948B2;
