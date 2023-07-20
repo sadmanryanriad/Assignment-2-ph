@@ -331,7 +331,7 @@
 }
 
 .container:hover .overlay {
-    opacity: .6;
+    opacity: .7;
     border: 5px solid #ec2da0;
 }
 
@@ -345,7 +345,7 @@
 }
 
 .text {
-    color: white;
+    color: #ec2da0;
     font-size: 20px;
     position: absolute;
     top: 50%;
