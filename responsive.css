@@ -20,8 +20,13 @@
     }
 
     .banner-text-outside {
-        width: 80%;
-        margin: auto;
+        width: 90%;
+        display: flex;
+        background-image: url(images/Group-14.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
     }
 
     .banner-img {
