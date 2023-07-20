@@ -370,6 +370,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
+    gap: 15px;
 }
 
 .second-row {
@@ -377,6 +378,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
+    gap: 15px;
 }
 
 .mini-card {
