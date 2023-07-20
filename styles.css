@@ -63,6 +63,7 @@
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
 }
+
 /* banner container */
 .banner-container {
     margin: 0 auto;
@@ -288,18 +289,74 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     cursor: pointer;
+    width: fit-content;
+    gap: 20px;
 }
 
 /* hovering cards */
-.card img:hover {
-    border: 3px solid #F948B2;
-    border-radius: 18px;
+.card image:hover {
+    
+    border-radius: 15px;
     opacity: 0.5 dark;
 }
 
 .card {
     text-align: center;
 }
+
+/* new hover starts */
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.container:hover .overlay {
+    opacity: .6;
+    border: 5px solid #ec2da0;
+}
+
+.play-button {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 25%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* new hovering only ends */
 
 /* mini cards */
 .mini-cards {
@@ -330,46 +387,56 @@
     border-radius: 50px;
     align-items: center;
 }
-.mini-card img{
-/* max-height: 100%; */
+
+.mini-card img {
+    /* max-height: 100%; */
 }
+
 .mini-card:hover {
     border: 2px solid #F948B2;
     cursor: pointer;
     color: #F948B2;
 }
+
 /* footer */
-.footer{
+.footer {
     background: #0B0223;
 }
-.inside-footer{
+
+.inside-footer {
     max-width: 950px;
     margin: auto;
 }
-.logo-container-footer{
+
+.logo-container-footer {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.logo-section{
+
+.logo-section {
     display: flex;
     justify-content: center;
 }
-.link-section{
+
+.link-section {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
 }
-.link-section .link-div{
+
+.link-section .link-div {
     color: #FFF;
-text-align: center;
-font-size: 1.5rem;
-font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
-.logo-button{
+
+.logo-button {
     text-align: center;
     margin: 30px;
 }
-.logo-button button{
+
+.logo-button button {
     text-align: center;
     margin-right: 30px;
     background: transparent;
@@ -377,24 +444,28 @@ font-weight: 600;
     cursor: pointer;
     margin: 20px;
 }
-.small-text-section{
+
+.small-text-section {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.small-text-section .small-text{
+
+.small-text-section .small-text {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: .8rem;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.last-small-div{
+
+.last-small-div {
     color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-size: 0.7rem;
-font-weight: 400;
-padding-bottom: 30px;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
-.amer{
+
+.amer {
     color: white;
 }

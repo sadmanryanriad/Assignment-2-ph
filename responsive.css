@@ -73,21 +73,21 @@
         margin: auto;
         text-align: center;
     }
-
+    
     .cards {
         grid-template-columns: 1fr;
     }
-
+    
     .card {
         text-align: center;
         margin-top: 20px;
     }
-
+    
     .card-paragraph {
         width: 80%;
         margin: auto;
     }
-
+    
     .first-row {
         display: grid;
         grid-template-columns: repeat(2,1fr);
