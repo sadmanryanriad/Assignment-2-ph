@@ -247,10 +247,8 @@
     }
 
     .link-section {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .link-section .link-div {
         color: #FFF;
         text-align: center;
         font-size: 1rem;
